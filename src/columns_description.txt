@@ -1,0 +1,11 @@
+snpid	SNP rs ID
+hg18chr	hg18 chromosome (1-22)
+bp	hg18 base position of SNP
+a1	reference allele (not necessarily minor allele)
+a2	alternate allele
+or	odds ratio from logistic regression including PCA covariates (see papers)
+se	standard error of the odds ratio
+pval	asymptotic p-value
+info	INFO score from imputation, ratio of variances, can exceed 1
+ngt	number of studies in which this SNP directly genotyped (not imputed)
+CEUaf	frequency of a1 in HapMap3 CEU (HapMap2 for BIP)
